@@ -1,0 +1,137 @@
+{
+	"description": "项目配置文件",
+	"cloudfunctionRoot": "cloud/",
+	"packOptions": {
+		"ignore": []
+	},
+	"setting": {
+		"urlCheck": true,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true,
+		"autoAudits": false,
+		"coverView": true
+	},
+	"compileType": "miniprogram",
+	"libVersion": "2.9.4",
+	"appid": "wx59bf8ba8b1f8d76d",
+	"projectname": "wx-sl001",
+	"debugOptions": {
+		"hidedInDevtools": []
+	},
+	"isGameTourist": false,
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"cloudfunctionTemplateRoot": "cloudfunctionTemplate",
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"currentL": -1,
+			"list": []
+		},
+		"gamePlugin": {
+			"current": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": -1,
+			"list": [
+				{
+					"id": -1,
+					"name": "pages/pic/pic",
+					"pathName": "pages/pic/pic",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/reg/reg",
+					"pathName": "pages/reg/reg",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/me/me",
+					"pathName": "pages/me/me",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/dbtest/dbtest",
+					"pathName": "pages/dbtest/dbtest",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/openForm/openForm",
+					"pathName": "pages/openForm/openForm",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/openForm2/openForm2",
+					"pathName": "pages/openForm2/openForm2",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/cloudfunction/cloudfunction",
+					"pathName": "pages/cloudfunction/cloudfunction",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/cloudpic/cloudpic",
+					"pathName": "pages/cloudpic/cloudpic",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/listView/listView",
+					"pathName": "pages/listView/listView",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/testdb/testdb",
+					"pathName": "pages/testdb/testdb",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/testdb2/testdb2",
+					"pathName": "pages/testdb2/testdb2",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/marketList/marketList",
+					"pathName": "pages/marketList/marketList",
+					"scene": null
+				}
+			]
+		}
+	}
+}

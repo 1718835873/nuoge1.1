@@ -1,0 +1,11 @@
+<button type="primary" bindtap="getAllData">云函数调用</button>
+
+<button type="primary" bindtap="getOpenId">获取用户的openid</button>
+
+<button type="primary" bindtap="getAllData">云函数获取数据</button>
+
+<button type="primary" bindtap="addData">云函数增加数据</button>
+
+<text>要删除的卖场的id</text>
+<input placeholder="要删除的卖场的id" bindinput="setId"></input>
+<button type="primary" bindtap="delData">云函数删除数据</button>

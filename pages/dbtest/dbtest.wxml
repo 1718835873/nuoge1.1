@@ -1,0 +1,21 @@
+<text>姓名</text><input placeholder="输入姓名"  bindinput="getName"></input>
+<text>年龄</text><input placeholder="输入年龄" value="{{age}}"  bindinput="getAge"></input>
+<!-- <text>出生日期</text> -->
+<picker mode="date" value="{{date}}" start="2015-09-01" end="2017-09-01" bindchange="bindDateChange">
+    <view class="picker">
+      当前选择: {{date}}
+    </view>
+  </picker>
+
+ 
+
+
+<button type="primary" bindtap="addStudent">添加数据</button>
+
+<button type="primary" bindtap="selectStudentAll">查询数据</button>
+
+<view class="box" wx:for="{{studentList}}">
+    <view class="item1">{{item.name}}</view>
+    <view class="item2">{{item.id}}</view>
+    <view class="item1">{{item.birthday}}</view>
+</view>

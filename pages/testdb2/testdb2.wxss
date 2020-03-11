@@ -1,0 +1,6 @@
+/* pages/testdb2/testdb2.wxss */
+
+button {
+
+    margin: 10rpx;
+}

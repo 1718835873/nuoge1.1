@@ -1,0 +1,19 @@
+/* pages/dbtest/dbtest.wxss */
+button{
+    margin: 10rpx;
+}
+.box{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.box .item1{
+    width: 100px;
+   
+    text-align: center
+}
+.box .item2{
+    width: 100px;
+}
+ 

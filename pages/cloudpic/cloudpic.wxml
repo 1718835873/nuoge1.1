@@ -1,0 +1,9 @@
+<button bindtap="selectFile">上传文件</button>
+
+<image src="{{imgURL}}"></image>
+
+<button bindtap="selectVideo">上传视频</button>
+<video src="{{videoURL}}"></video>
+
+<button bindtap="selectExcel">上传excel文件</button>
+<button bindtap="openExcel">打开excel文件</button>

@@ -1,0 +1,16 @@
+<button bindtap="getData">获取云数据库数据</button>
+
+<view wx:for="{{dataList}}">
+    <view class="box">
+        <view>{{item.name}}</view>
+        <view>{{item.birthday}}</view>
+        <view>{{item.age}}</view>
+    </view>
+</view>
+
+<button bindtap="getDataByCloud">通过云函数获取云数据库数据</button>
+<view wx:for="{{dataList2}}">
+    <view class="box">
+        <view>{{item.sno}}</view>
+     </view>
+</view>

@@ -1,0 +1,8 @@
+<view style="width:400rpx;">
+
+    <image mode="aspectFill" src="https://x0.ifengimg.com/ucms/2019_49/43f85ceb-b0b7-45fb-9c02-461f5f8f9b94_FBE49B07D263E0475E8444D1429FDFB9E0FF96E4_w1024_h682.jpg"></image>
+</view>
+
+<view>
+    <image src="https://x0.ifengimg.com/ucms/2019_49/43f85ceb-b0b7-45fb-9c02-461f5f8f9b94_FBE49B07D263E0475E8444D1429FDFB9E0FF96E4_w1024_h682.jpg"></image>
+</view>

@@ -1,0 +1,1 @@
+<button bindtap="getMarketList">获取用户卖场列表</button>

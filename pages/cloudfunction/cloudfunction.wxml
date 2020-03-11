@@ -1,0 +1,1 @@
+<button bindtap="getOpenID">云函数获取openid</button>

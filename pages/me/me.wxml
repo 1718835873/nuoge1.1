@@ -1,0 +1,15 @@
+<view wx:if="{{!loginOK}}">
+    <button type="primary" class="btn" bindtap="denglu">登录</button>
+    <button type="primary" class="btn" bindtap="zhuce">注册</button>
+</view>
+<view wx:if="{{loginOK}}" class="txt">
+    <text >
+        登录成功,你好{{userName}}
+    </text>
+    <button bindtap="tuichu">
+        退出
+    </button>
+</view>
+
+
+

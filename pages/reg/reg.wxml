@@ -1,0 +1,10 @@
+ <text class="text">输入用户名</text>
+ <input class="input" bindinput="getUserName"></input>
+  <text class="text">输入账号</text>
+ <input class="input" bindinput="getUserAccount"></input>
+
+ <text class="text">输入密码</text>
+ <input class="input" type="password" bindinput="getUserPassword"></input>
+
+ <button bindtap="zhuce" type="primary">注册</button>
+

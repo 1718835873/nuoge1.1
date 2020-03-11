@@ -1,0 +1,38 @@
+<view>
+    <text>诺歌数据库接口测试</text>
+</view>
+<view>
+    <text>卖场名称</text>
+    <input value="{{name}}" placeholder="卖场名称" bindinput="getName"></input>
+    <text>卖场地址</text>
+    <input placeholder="卖场地址" bindinput="getAddress"></input>
+    <text>卖场联系人</text>
+    <input placeholder="卖场联系人" bindinput="getContact"></input>
+    <text>卖场编号</text>
+    <input placeholder="卖场编号" bindinput="getNumber"></input>
+    <text>卖场电话</text>
+    <input placeholder="卖场电话" bindinput="getPhone"></input>
+    <text>卖场图片</text>
+    <input placeholder="卖场图片" bindinput="getPicturl"></input>
+</view>
+<button type="primary" bindtap="getAllData">获取所有卖场数据</button>
+<view class="box" wx:for="{{marketList}}">
+    <view class="item1">{{item.name}}</view>
+    <view class="item1">{{item.number}}</view>
+    <button  bindtap="del" data-item="{{item}}" class="btn1">删除</button>
+    <button  bindtap="update" data-item="{{item}}" class="btn1">修改</button>
+    <view>hello</view>
+</view>
+<button type="primary"  bindtap="addData">添加卖场</button>
+
+<button type="primary" bindtap="modifyData">修改卖场数据</button>
+<text>要修改数量的商品的id</text>
+<input placeholder="要修改数量的商品的id" bindinput="setId"></input>
+<input placeholder="要修改数量的商品的数量" bindinput="setNumber"></input>
+<button type="primary" bindtap="updataData">修改卖场数据</button>
+
+<view style="color:red">
+    <text>要删除的商品的id</text>
+    <input placeholder="要删除的商品的id" bindinput="setId"></input>
+    <button type="primary" bindtap="deleteData">删除卖场数据</button>
+</view>

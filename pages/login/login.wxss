@@ -1,0 +1,7 @@
+.input{
+    border: 1px solid gainsboro;
+    margin: 20rpx;
+}
+.text{
+    margin: 20rpx;
+}

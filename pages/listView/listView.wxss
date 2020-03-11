@@ -1,0 +1,4 @@
+.box{
+    background-color:antiquewhite;
+    border: 5rpx solid gold
+}
